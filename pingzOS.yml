@@ -1,6 +1,6 @@
 ---
 - name: "Ping"
-  hosts: 'ZCX1'
+  hosts: 172.24.9.85
   tasks:      
     - name: Example from an Ansible Playbook to Ping z/OS ZCX1
       ansible.builtin.ping:
