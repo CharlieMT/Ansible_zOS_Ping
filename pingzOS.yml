@@ -1,6 +1,7 @@
 ---
 - name: "Ping"
   hosts: ZCX1
+  gather_facts: false
   tasks:      
     - name: Example from an Ansible Playbook to Ping z/OS ZCX1
       ansible.builtin.ping:
